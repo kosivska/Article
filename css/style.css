@@ -1,0 +1,89 @@
+@font-face {
+	font-family: PlayfairDisplayRegular;
+	src: url("./fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff");
+}
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/LatoLight/LatoLight.woff");
+}
+
+body{
+	background-color:  #fcfcfc;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.content {
+	background-color:  #fcfcfc;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	height: 660px;
+	margin: 90px auto;
+	padding: 90px;
+	width: 61%;
+}
+
+.heading {
+	color:  #171717;
+	font-family: PlayfairDisplayRegular;
+	font-size: 42px;
+	font-weight: 400;
+	margin:0 auto;
+	text-align: left;
+	text-shadow: 1px 1px 2px grey;
+}
+
+.paragraph {
+	color:  #7A7A7A;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 2;
+	margin-bottom: 45px;
+	text-align: left;
+}
+
+.paragraph:first-child {
+	margin: 20px 0 45px;
+}
+
+.paragraph:first-child::first-letter{
+	color:  #171717;
+	float: left;
+	font-family: PlayfairDisplay;
+	font-size: 110px;
+	font-weight: 400;
+	line-height: 36px;
+	margin-right: 10px;
+	text-align: left;
+	margin-top: 25px;
+}
+
+q { 
+	color:  #7a7a7a;
+	font-family: Lato;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 300;
+	margin-left: 40px;
+}
+
+.button {
+	background-color: #ffffff;
+	border: 2px solid #eaa258;
+	color: #eaa258;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 700;
+	height: 64px;
+	margin-top: 45px;
+	outline:none;
+	text-transform: uppercase;
+	width: 260px;
+}
+
+.button:hover {
+	box-shadow: 2px 2px white, 4px 4px #C76637;
+	left: -4px;
+	top: -4px;
+}
